@@ -1,0 +1,34 @@
+{
+    "name": "hivokas/correct-word-form",
+    "description": "Package provides ability to get the correct word form depending on the number before this word.",
+    "type": "library",
+    "keywords": [
+        "hivokas",
+        "correct-word-form",
+        "correct",
+        "word",
+        "form",
+        "numerals"
+    ],
+    "homepage": "https://github.com/hivokas/correct-word-form",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Sakovich",
+            "email": "me@hivokas.com",
+            "homepage": "https://github.com/hivokas",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hivokas\\CorrectWordForm\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
